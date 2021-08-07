@@ -13,7 +13,12 @@
     <div id="app">{{msg}}</div>
     <script>
         console.log('vue')
-        console.log(Vue)
+        new Vue({
+            el: '#app',
+            data: {
+                msg: 'hi'
+            }
+        })
     </script>
 </body>
 </html>
